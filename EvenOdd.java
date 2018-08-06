@@ -10,7 +10,7 @@ class EvenOdd
    {
      System.out.println("even");
    }
-   else if(s%2!=0)
+   else
    {
      System.out.println("odd");
    }
