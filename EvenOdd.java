@@ -14,9 +14,5 @@ class EvenOdd
    {
      System.out.println("odd");
    }
-   else
-   {
-     System.out.println("invalid");
-   }
   }
  } 
