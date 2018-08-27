@@ -6,8 +6,8 @@ class Alpha
    {
      char k;
      Scanner s=new Scanner(System.in);
-     k=s.next();
-     if(k>="a" && k>="A")
+     k=s.next().charAt(0);
+     if(k>='a'&& k>='A')
      {
        System.out.println("Alphabets");
      }
