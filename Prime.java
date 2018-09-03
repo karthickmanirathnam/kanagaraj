@@ -18,11 +18,11 @@ class Prime
       }
      if(!flag)
      {
-       System.out.println("prime");
+       System.out.println("yes");
       }
       else
       {
-        System.out.println("not prime);
+        System.out.println("no");
       }
     }
   }  
