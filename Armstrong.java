@@ -12,8 +12,8 @@ public class Armstrong
             originalNumber /= 10;
         }
         if(result == number)
-            System.out.println(number + " is an Armstrong number.");
+            System.out.println("yes");
         else
-            System.out.println(number + " is not an Armstrong number.");
+            System.out.println("no");
     }
 }
