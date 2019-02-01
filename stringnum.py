@@ -8,11 +8,11 @@ def is_number(s):
     try:
         import unicodedata
         unicodedata.numeric(s)
-        return True
+        print("yes")
     except (TypeError, ValueError):
         pass
  
-return False
+print("false")
 
 
 
