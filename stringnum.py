@@ -12,7 +12,7 @@ def is_number(s):
     except (TypeError, ValueError):
         pass
  
-print("false")
+print("no")
 
 
 
