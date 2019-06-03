@@ -1,0 +1,2 @@
+a='vishalrknagar'
+print(""+a+".")
