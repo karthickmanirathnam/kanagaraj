@@ -1,6 +1,6 @@
 li=[]
 a=int(input())
-for i in ramge(a):
+for i in range(a):
   b=input()
   li.append(b)
 li.sort()
