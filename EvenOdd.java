@@ -1,18 +1,22 @@
 import java.io.*;
 import java.util.*;
-class EvenOdd
+class Positive
 {
  public static void main(String args[])
  {
    Scanner a=new Scanner(System.in);
    int b=a.nextInt();
-   if(b%2==0)
+   if(b>0)
    {
-     System.out.println("even");
+     System.out.println("positive");
    }
-   else
+   elseif(b==0)
    {
-     System.out.println("odd");
+     System.out.println("zero");
    }
+  else
+  {
+    System.out.println("negative");
+  }
   }
  } 
