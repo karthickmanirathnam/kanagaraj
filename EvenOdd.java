@@ -5,8 +5,8 @@ class EvenOdd
  public static void main(String args[])
  {
    Scanner a=new Scanner(System.in);
-   int s=a.nextInt();
-   if(s%2==0)
+   int b=a.nextInt();
+   if(b%2==0)
    {
      System.out.println("even");
    }
